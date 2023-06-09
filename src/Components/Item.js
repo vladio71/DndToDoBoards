@@ -13,7 +13,7 @@ const style = {
     backdropFilter: "blur(.1rem)",
     background: "rgba(165, 199, 229, 0.2)"
 };
-export function Item(props) {
+function Item(props) {
     const {id, state, columns} = props;
 
 
@@ -21,13 +21,5 @@ export function Item(props) {
 
 }
 
-export function ColItem(props) {
-
-    const {id, state, columns} = props;
-
-    const col = columns.find(el => el.id === id)
-
-
-    return  <Column  id={col.id} name={col.name} items={state[col.id]} />
-}
+export default Item
 

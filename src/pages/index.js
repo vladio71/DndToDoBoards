@@ -1,5 +1,5 @@
-import initialData from "./Components/initialData";
-import Column, {CustomButton, Header, Input, InputWihEnter} from "./Components/column";
+import initialData from "../Components/initialData";
+import Column, {CustomButton, Header, Input, InputWihEnter} from "../Components/column";
 import React, {useState} from 'react';
 import {
     DndContext,
@@ -17,8 +17,9 @@ import {
     verticalListSortingStrategy,
 } from '@dnd-kit/sortable';
 
-import {SortableItem} from './Components/listItem';
-import {ColItem, Item} from "./Components/Item";
+import {SortableItem} from '../Components/listItem';
+import  Item from "../Components/Item";
+import  ColItem from "../Components/ColItem";
 import {imageExtMimeTypeMap} from "next/dist/lib/mime-type";
 
 

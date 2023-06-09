@@ -12,9 +12,6 @@ const initialData = {
         {id: "B4", content: '4'},
     ],
 }
-
-
-
 export default initialData
 
 
