@@ -2,7 +2,8 @@
 ![alt text](./public/header.png)
 
 # TODOISTIK
-TODOISTIK is a drug and drop based web app for creating boards and tasks, as well as ordering them easily. 
+TODOISTIK is a drug and drop based web app for creating boards and tasks, as well as ordering them easily. Deployed on : https://dnd-to-do-boards.vercel.app/
+
 
 ## Core packages
 
