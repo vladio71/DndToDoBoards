@@ -1,9 +1,8 @@
-"use client"
-import {arrayMove} from "@dnd-kit/sortable";
-import initialData from "../Components/initialData";
-import {useState} from "react";
 
- const useMainLogic = (activeColId,items, columns,setActiveId,setColumns,setItems,setActiveColId) => {
+import {arrayMove} from "@dnd-kit/sortable";
+
+
+export const useMainLogic = (activeColId,items, columns,setActiveId,setColumns,setItems,setActiveColId) => {
 
 
 
@@ -194,4 +193,3 @@ import {useState} from "react";
 
 }
 
-export default useMainLogic
