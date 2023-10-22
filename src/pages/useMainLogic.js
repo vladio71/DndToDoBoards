@@ -6,8 +6,6 @@ export const useMainLogic = (activeColId,items, columns,setActiveId,setColumns,s
 
 
 
-
-
     function addColumn(cName) {
         if(columns.find(el=> el.name === cName)){
             return

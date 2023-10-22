@@ -14,7 +14,7 @@ import {
 } from '@dnd-kit/sortable';
 import Item from "../Components/Item";
 import ColItem from "../Components/ColItem";
-import useMainLogic from "./useMainLogic";
+import {useMainLogic} from "./useMainLogic";
 import Head from "next/head";
 
 
