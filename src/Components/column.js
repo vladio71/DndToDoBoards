@@ -49,7 +49,6 @@ export const CustomButton = styled.button`
    
 `
 
-
 export const DeleteButton = styled.button`
     border: none;
     position: absolute;

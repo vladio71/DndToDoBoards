@@ -3,8 +3,10 @@
 
 
 body {
+
     background: url('/tasksBack.jpg') center no-repeat;
     background-size: cover;
+    height: 100vh;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto Slab', serif;
 
@@ -21,10 +23,7 @@ button {
 }
 
 .container {
-    margin: 5% auto;
-
-
-
+    padding: 5% 0;
 }
 
 .tasks_table {
@@ -70,6 +69,7 @@ input[type='checkbox']:checked::before {
     display: flex;
     gap: 1rem;
     position: relative;
+    cursor: pointer;
     align-items: center;
     justify-content: space-between;
 }

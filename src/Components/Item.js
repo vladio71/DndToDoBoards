@@ -14,7 +14,7 @@ const style = {
     background: "rgba(165, 199, 229, 0.2)"
 };
 function Item(props) {
-    const {id, state, columns} = props;
+    const {id, state} = props;
 
 
     return  <div style={style}>{state[Object.keys(state).find(el => state[el].find(el => el.id === id))].find(el => el.id === id).content}</div>

@@ -20,6 +20,7 @@ const RemoveBtn = styled.button`
         background: rgba(10,10,10,.7);
         color: white;  
  
+ 
     }
 `
 
@@ -40,7 +41,6 @@ export function SortableItem(props) {
     return (
         <div ref={setNodeRef} style={style} {...attributes} {...listeners}>
             <div className={'listItem'}>
-
 
                 <input type={'checkbox'}/>
                 <p className={'item'}>{props.task}</p>
