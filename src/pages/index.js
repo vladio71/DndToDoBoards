@@ -16,6 +16,7 @@ import Item from "../Components/Item";
 import ColItem from "../Components/ColItem";
 import {useMainLogic} from "../Hooks/useMainLogic";
 import Head from "next/head";
+import Image from "next/image";
 
 
 export default function Home() {
@@ -58,6 +59,17 @@ export default function Home() {
                       href="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Microsoft_To-Do_icon.svg/2515px-Microsoft_To-Do_icon.svg.png"/>
 
             </Head>
+            <div className={'background'}>
+                <Image
+                    src={"https://ucarecdn.com/eec76bbb-cf3f-4992-bca5-df48f51ab751/-/preview/"}
+                    priority={true}
+                    fill={true}
+                    style={{
+                        objectFit: 'cover',
+                    }}
+                    sizes="(max-width: 768px) 768px, (max-width: 1200px) 1200px"
+                />
+            </div>
             <Header><h2>_TODOISTIK_</h2>
                 <InputWihEnter>
                     <Input value={columnName} onChange={(e) => setColumnName(e.target.value)}
